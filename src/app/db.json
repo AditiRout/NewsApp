@@ -1,0 +1,32 @@
+{
+  "favourites": [
+    {
+      "id": "c9b8",
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Saqib Ahmed",
+      "title": "Investor bets shift as dollar weakens with looming Fed rate cuts - Reuters",
+      "description": "The U.S. dollar's decline is gaining speed as anticipated interest rate cuts by the Federal Reserve threaten to end the greenback's years-long period of strength.",
+      "url": "https://www.reuters.com/markets/currencies/bears-circle-weakening-dollar-fed-rate-cuts-loom-2024-09-05/",
+      "urlToImage": "https://www.reuters.com/resizer/v2/YDT6SDXNDZPR7DJR3PFIKHA3WQ.jpg?auth=ce36e2172b266d3f319c7c3ad543e026f761c8b82d0904d6e781b289f5e0d742&height=1005&width=1920&quality=80&smart=true",
+      "publishedAt": "2024-09-05T05:25:01Z",
+      "content": null
+    },
+    {
+      "id": "b01f",
+      "source": {
+        "id": null,
+        "name": "Florida Today"
+      },
+      "author": "Rick Neale",
+      "title": "SpaceX targets Wednesday Starlink launch; Polaris Dawn launch target moves to Friday - Florida Today",
+      "description": "Wednesday's Starlink 8-11 mission has been shuffled twice to a new 12:07 p.m. EDT target liftoff time.",
+      "url": "https://www.floridatoday.com/story/tech/science/space/2024/09/03/spacex-targets-starlink-launch-wednesday-polaris-dawn-launch-friday-from-nasa-kennedy-space-center/75054007007/",
+      "urlToImage": "https://www.floridatoday.com/gcdn/authoring/authoring-images/2024/08/20/PBRE/74870663007-crb-082024-spacex-5.jpg?crop=1427,803,x0,y197&width=1427&height=803&format=pjpg&auto=webp",
+      "publishedAt": "2024-09-05T09:16:50Z",
+      "content": "As SpaceX targets Wednesday afternoon for its next Starlink launch from the Space Coast, a Federal Aviation Administration operations plan advisory shows the next Polaris Dawn liftoff try will occur … [+3106 chars]"
+    }
+  ]
+}

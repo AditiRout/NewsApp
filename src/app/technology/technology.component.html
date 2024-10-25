@@ -1,0 +1,16 @@
+<div class="container mt-4">
+    <h2>News</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let news of technologyNews ">
+        <div class="card mb-4 shadow-sm">
+          <img [src]="news.urlToImage" class="card-img-top custom-size" alt="News Image">
+          <div class="card-body">
+            <h5 class="card-title">{{ news.title }}</h5>
+            <p class="card-text">{{ news.description }}</p>
+            <button class="btn btn-primary" (click)="addToFavourites(news)">Add to Favourites</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

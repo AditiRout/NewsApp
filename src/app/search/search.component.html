@@ -1,0 +1,34 @@
+<div>
+  <div class="container mt-4">
+    <h2>Select a News Category</h2>
+    <div class="form-group">
+      <label for="category">Choose Category:</label>
+      <select class="form-control" [(ngModel)]="selectedCategory">
+        <option value="">-- Select a Category --</option>
+        <option *ngFor="let category of categories" [value]="category">
+          {{ category | titlecase }}
+        </option>
+      </select>
+    </div>
+    <button class="btn btn-primary mt-3" (click)="searchNews()">Search</button>
+  </div>
+  <div class="row" *ngIf="favNews.length > 0">
+    <h3 class="my-3">Favorite News</h3>
+    <div class="col-md-4" *ngFor="let fav of favNews">
+      <div class="card mb-4">
+        <img
+          [src]="fav.urlToImage"
+          class="card-img-top custom-size"
+          alt="Favorite News Image"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ fav.title }}</h5>
+          <p class="card-text">{{ fav.description }}</p>
+          <!-- <a [href]="fav.url" target="_blank" class="btn btn-secondary"
+            >Read More</a
+          > -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
